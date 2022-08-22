@@ -1,0 +1,162 @@
+body{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+.header{
+	position: relative;
+	height: 10vh;
+}
+.logo img{
+	position: absolute;
+	height: 90%;
+	left: 0;
+	margin-left: 2%;
+}
+.nav{
+	position: absolute;
+	left: 25vw;
+	top: 35%;
+}
+.nav ul{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	list-style-type: none;
+}
+.nav li{
+	float: left;
+}
+.nav li>a{
+	text-decoration: none;
+	color: #12A1C4;
+	padding: 2vw;
+	font-weight: bold;
+}
+.searchBox{
+	position: absolute;
+	right: 3%;
+	top: 35%;
+}
+.searchBox input{
+	box-shadow: 0px 0px 1px 1px grey;
+}
+.searchBox button{
+	background-color: black;
+	color: white;
+}
+.banner img{
+	width: 100%;
+	height: 55vh;
+}
+.bestseller{
+	display: flex;
+	width: 100%;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	height: 65vh;
+}
+.bestseller>div{
+	border: 1px solid black;
+	box-shadow: 0px 0px 2px 2px #C9C7C7;
+	border-radius: 1%;
+
+}
+.bestseller-img{
+	width: 40vw;
+	height: 100%;
+}
+.bestseller-img img{
+	width: 100%;
+	height: 90%;
+}
+.bestseller-desc{
+	margin-left: 4vw;
+	width: 46vw;
+	height: 100%;
+}
+.bestseller-desc p{
+	margin-top: 2%;
+	margin-left: 2%;
+	border-bottom: 1px solid #C9C7C7;
+	padding-bottom: 3px;
+}
+.bestseller-desc h2{
+	margin-left: 2%;
+	color: #3661DD;
+}
+h1{
+	text-align: center;
+	color: red;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+.container{
+	display: flex;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-bottom: 3vh;
+}
+.container>div{
+	width: 20vw;
+	height: 50vh;
+	border: 1px solid black;
+	border-radius: 2%;
+	box-shadow: 0px 0px 2px 2px #C9C7C7;
+	margin-left: 2vw;
+}
+.product>img{
+	width: 100%;
+	height: 90%;
+}
+.product{
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+.product-name{
+	position: absolute;
+	bottom: 0;
+	width: 20vw;
+	height: 5vh;
+	background-color: #FA8F30;
+	color: white;
+	border-bottom-left-radius: 1vh;
+	border-bottom-right-radius: 1vh;
+	text-align: center;
+}
+.product-name>div{
+	position: absolute;
+	width: 100%;
+	bottom: 25%;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.footer{
+	position: relative;
+	display: flex;
+	padding-left: 25vw;
+	padding-right: 25vw;
+	padding-bottom: 5vh;
+	padding-top: 3vh;
+	background-color: #18A7D0;
+	color: white;
+}
+.footer h4{
+	margin-bottom: 2vh;
+}
+.footer ul{
+	margin-bottom: 5vh;
+	list-style-type: none;
+	width: 30vw;
+}
+.footer li{
+	margin-top: 1vh;
+}
+.footer span{
+	display: block;
+	position: absolute;
+	left: 45vw;
+	bottom: 4vh;
+}
