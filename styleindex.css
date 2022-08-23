@@ -1,14 +1,62 @@
-.nav-item a{
+body{
+	width: 100%;
+	overflow-x: hidden;
+}
+.general-box{
 	width: 30vw;
 	height: 20vh;
 	border: 1px dashed black;
 	box-shadow: 0px 0px 2px 2px grey;
 	border-radius: 5%;
 	margin-bottom: 2vh;
+	margin-top: 2vh;
 	text-align: center;
 	font-size: 4vh;
 	padding: 6vh 0vh;
 }
-.nav-item a:first-child{
+.phone-box{
+	width: 20vw;
+	height: 50vh;
+	border: 5px solid grey;
+	/*background-color: black;*/
+	background:  linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+	box-shadow: 0px 0px 1px 1px black;
+	color: white;
+	text-align: center;
+	font-size: 4vh;
+	padding: 20vh 0vh;
+	margin-bottom: 2vh;
 	margin-top: 2vh;
+}
+.computer-box{
+	width: 30vw;
+	height: 30vh;
+	border: 5px solid grey;
+	background-color: black;
+	box-shadow: 0px 0px 1px 1px black;
+	color: white;
+	text-align: center;
+	font-size: 4vh;
+	padding: 6vh 0vh;
+	margin-bottom: 2vh;
+	margin-top: 2vh;
+}
+.computer-box:hover{
+	background-color: white;
+	color: red;
+	font-weight: bold;
+}
+.laptop-box{
+	width: 25vw;
+	height: 30vh;
+	border: 5px solid grey;
+	background-color: black;
+	box-shadow: 0px 0px 1px 1px black;
+	color: white;
+	text-align: center;
+	font-size: 4vh;
+	padding: 10vh 0vh;
+	margin-bottom: 2vh;
+	margin-top: 2vh;
+	margin-left: 2.5vw;
 }
