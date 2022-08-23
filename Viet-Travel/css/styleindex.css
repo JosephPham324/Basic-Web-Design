@@ -1,0 +1,74 @@
+.banner{
+	height: 70vh;
+	/*background-color: #AAAAAA;*/
+}
+.favourite-places{
+	/*background-color: #A54F4F;*/
+	height: 100%;
+}
+.favourite-places h3{
+	color: orange;
+	border-bottom: 3px solid #10AF7C;
+}
+.banner-img{
+	/*background-color: #B11F4F;*/
+	padding: 0;
+	height: 100%;
+}
+.banner-img img{
+	width: 100%;
+	height: 100%;
+}
+.favourite-places img{
+	width: 5em;	
+	height: 5em;
+}
+.favourite-places ul{
+	list-style-type: none;
+	padding: 0;
+}
+.favourite-places li{
+	position: relative;
+	margin-bottom: 20px;
+}
+.favourite-places span{
+	position: absolute;
+	top: 0;
+}
+.hotel img{
+
+}
+.heading{
+	text-align: center;
+	color: #53A1E4;
+}
+.tour-table th{
+	text-align: center;
+	color: seagreen;
+}
+.tour-table td{
+	text-align: center;
+	color: orange;
+}
+.footer{
+	background-color: #287451;
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+}
+.hotel{
+	position: relative;
+}
+.hotel-desc{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	color: white;
+	background-color: rgba(81,81,81,0.4);
+}
+.hotel-desc h3{
+	width: 100%;
+	text-align: center;
+}
