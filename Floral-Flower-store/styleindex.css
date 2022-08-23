@@ -1,0 +1,154 @@
+body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	overflow-x: hidden;
+	/*background-color: #9B52D4;*/
+}
+.container{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.header{
+	position: relative;
+	height: 10vh;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	/*background-color: #E33232;*/
+}
+.slogan-1 p{
+	position: absolute;
+	left: 10%;
+	color: green;
+	font-size: 1.5em;
+}
+.slogan-2 p{
+	position: absolute;
+	right: 10%;
+	font-size: 1.5em;
+	color: green;
+}
+.logo img{
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	height: 80%;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+.banner{
+	width: 100%;
+	height: 50vh;
+	margin: 0;
+	padding: 0;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+.menu{
+	position: relative;
+	width: 100%;
+	height: 5vh;
+	background-color: #288526;;
+	margin: 0;
+}
+.menu ul{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	list-style-type: none;
+	top: 0;
+	left: 25%;
+	margin: 0;
+	margin-top: 10px;
+}
+.menu ul>li{
+	margin: 0;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+.pinkrose{
+	display: flex;
+	padding-top: 20px;
+	padding-left: 10px;
+	/*background-color: #9B52D4;*/
+	height: 70vh;
+	width: 100%;
+}
+.pinkrose p{
+	width: 100%;
+}
+.pinkrose img{
+	height: 100%;
+}
+.pinkrose-meaning{
+	padding-left: 20px;
+}
+.pinkrose-meaning h2{
+	color: #ECAEF0;
+}
+#messages{
+	color: #CE8BC5;
+}
+.pinkrose-meaning ul{
+	list-style-type: circle;
+	color: #30AF51;
+}
+h1{
+	text-align: center;
+	color: blue;
+}
+.bestseller{
+	display: flex;
+	/*align-content: center;*/
+	height: 75vh;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+}
+.bestseller-item{
+	border: 2px solid black;
+	/*margin-left: 1vw;*/
+	margin-right: 4%;
+	border-radius: 5%;
+	padding: 10px;
+	box-shadow: 1px 1px 1px 1px black;
+	position: relative;
+}
+.buy-button{
+	position: absolute;
+	left: 34%;
+	bottom: 1%;
+	width: 35%;
+	height: 4%;
+	color: white;
+	padding-top: 10px;
+	border-radius: 30px;
+	background-color: orange;
+}
+.buy-button:hover{
+	cursor: pointer;
+}
+h3{
+	color: #56912F;
+}
+.price{
+	color: red;
+	font-weight: bold;
+}
+.footer{
+	background-color: #287451;
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
