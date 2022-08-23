@@ -17,8 +17,8 @@ body{
 .phone-box{
 	width: 20vw;
 	height: 50vh;
+	border-radius: 1vh;
 	border: 5px solid grey;
-	/*background-color: black;*/
 	background:  linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
 	box-shadow: 0px 0px 1px 1px black;
 	color: white;
@@ -27,17 +27,22 @@ body{
 	padding: 20vh 0vh;
 	margin-bottom: 2vh;
 	margin-top: 2vh;
+	margin-left: 5vw;
+}
+.gradient-second{
+	background: linear-gradient(to bottom, #6666ff 0%, #009933 100%);
 }
 .computer-box{
 	width: 30vw;
 	height: 30vh;
 	border: 5px solid grey;
 	background-color: black;
+	border-radius: 0.5vh;
 	box-shadow: 0px 0px 1px 1px black;
 	color: white;
 	text-align: center;
 	font-size: 4vh;
-	padding: 6vh 0vh;
+	padding: 10vh 0vh;
 	margin-bottom: 2vh;
 	margin-top: 2vh;
 }
@@ -50,6 +55,7 @@ body{
 	width: 25vw;
 	height: 30vh;
 	border: 5px solid grey;
+	border-radius: 2vh 2vh 0vh 0vh;
 	background-color: black;
 	box-shadow: 0px 0px 1px 1px black;
 	color: white;
@@ -59,4 +65,71 @@ body{
 	margin-bottom: 2vh;
 	margin-top: 2vh;
 	margin-left: 2.5vw;
+}
+.laptop-box:hover{
+	background-color: white;
+	color: red;
+	font-weight: bold;
+}
+.flower-box{
+	width: 30vw;
+	height: 20vh;
+	border: 1px solid black;
+	background-color: yellow;
+	color: darkorange;
+	box-shadow: 0px 0px 2px 2px grey;
+	border-radius: 100% 0% 100% 0%;
+	margin-bottom: 2vh;
+	margin-top: 2vh;
+	text-align: center;
+	font-size: 4vh;
+	padding: 6vh 0vh;
+
+}
+.flower-box:hover{
+	background-color: #E393D9;
+	color: red;
+	font-weight: bold;
+	border-radius: 0% 100% 0% 100%;
+	transition: transform 2s;
+	-webkit-transition: transform 2s;
+	transform: rotate(360deg);
+}
+.plane-box{
+	width: 30vw;
+	height: 20vh;
+	border: 1px solid black;
+	border-radius: 0vh 120vh 10vh 0vh;
+	box-shadow: 0px 0px 2px 2px grey;
+	margin-bottom: 2vh;
+	margin-top: 2vh;
+	font-size: 4vh;
+	padding: 6vh 0vh;
+	position: relative;
+	background: linear-gradient(to bottom, #fcfcfc 0%, #d4cfcf 100%);
+}
+.plane-box p{
+	display: inline-block;
+	position: absolute;
+	right: 10%;
+	border: 1px solid white;
+	border-radius: 20%;
+	padding: 4px;
+	background-color: black;
+	color: white;
+}
+.plane-box p:first-child{
+	display: inline-block;
+	position: absolute;
+	right: 30%;
+	border: 1px solid white;
+	background-color: black;
+	color: white;
+}
+.plane-box:hover p{
+	background: linear-gradient(to bottom, #f5f184 0%, #030200 100%);
+}
+.plane-box:hover{
+	background: linear-gradient(to bottom, #fcfcfc 0%, #030202 100%);
+	border: 1px solid white;
 }
