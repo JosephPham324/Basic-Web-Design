@@ -94,8 +94,8 @@ body{
 	color: red;
 	font-weight: bold;
 	border-radius: 0% 100% 0% 100%;
-	transition: transform 2s;
-	-webkit-transition: transform 2s;
+	/*transition: transform 2s;*/
+	/*-webkit-transition: transform 2s;*/
 	transform: rotate(360deg);
 }
 .plane-box{
