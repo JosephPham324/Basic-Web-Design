@@ -29,6 +29,9 @@ body{
 	margin-top: 2vh;
 	margin-left: 5vw;
 }
+.phone-box:hover{
+	font-weight: bold;
+}
 .gradient-second{
 	background: linear-gradient(to bottom, #6666ff 0%, #009933 100%);
 }
