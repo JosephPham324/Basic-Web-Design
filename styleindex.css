@@ -1,0 +1,12 @@
+.nav-item a{
+	width: 30vw;
+	height: 20vh;
+	border: 1px solid black;
+	margin-bottom: 2vh;
+	text-align: center;
+	font-size: 4vh;
+	padding: 6vh 0vh;
+}
+.nav-item a:first-child{
+	margin-top: 2vh;
+}
